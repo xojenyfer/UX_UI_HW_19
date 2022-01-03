@@ -1,5 +1,5 @@
-
-  /*navigation below*/
+  
+/*navigation below*/
   .inline-block {
     display: inline-block;
     vertical-align: text-top;
@@ -10,6 +10,7 @@
   
     /*background-color: blue;*/
   }
+  
   /* temporarily added color to give visual of changes*/
   .logo {
     width: 23%;
@@ -86,9 +87,9 @@
   display:flex;
   align-items: center;
   
-  width: 1125px;
+  width: 1025px;
   height:530px;
-  margin-left: 66px;
+  margin-left: 6px;
   margin-bottom: 142px;
   position:relative;
   background-color:#A74546;
@@ -102,13 +103,13 @@
     
   }
   
-  .projectPicture{
-  width: 803px;
+  .projectPicture1, .projectPicture2, .projectPicture3{
+  width: 700px;
   height: 422px;
   margin-bottom: 250px;
   position:absolute;
   top: 208px;
-  left: 570px;
+  left: 520px;
   /* z-index: 100; */
   
   background-color:gray;
@@ -128,7 +129,15 @@
   align-items: center;
   }
   
+/* hover animation*/
+.projectPicture1 { transition: all .5s cubic-bezier(0.4, 0, 1, 1); }
+.projectPicture1:hover { transform: scale(1.1); }
 
+.projectPicture2 { transition: all .5s cubic-bezier(0.4, 0, 1, 1); }
+.projectPicture2:hover { transform: scale(1.1); }
+
+.projectPicture3 { transition: all .5s cubic-bezier(0.4, 0, 1, 1); }
+.projectPicture3:hover { transform: scale(1.1); }
   
   /*blobs below*/
   
